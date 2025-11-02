@@ -1,0 +1,129 @@
+/* === General Page Styling === */
+body {
+  font-family: "Poppins", Arial, sans-serif;
+  background-color: #fff8f0;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* === Header Section === */
+header {
+  background-color: #ff4d4d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+header h1 {
+  margin-bottom: 5px;
+  font-size: 2em;
+}
+
+header p {
+  margin-top: 0;
+  font-style: italic;
+}
+
+/* === Image Section === */
+#image-section {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#image-section img {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* === Form Styling === */
+main {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+form {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* === Fieldsets and Legends === */
+fieldset {
+  border: 2px solid #ff4d4d;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+legend {
+  color: #ff4d4d;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+/* === Form Labels and Inputs === */
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical;
+}
+
+/* === Radio & Checkbox Styling === */
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+/* === Buttons === */
+input[type="submit"],
+input[type="reset"] {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 10px 5px 0 0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #e03e3e;
+}
+
+/* === Footer Section === */
+footer {
+  text-align: center;
+  background-color: #ff4d4d;
+  color: white;
+  padding: 15px 0;
+  margin-top: 20px;
+  font-size: 0.9em;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
